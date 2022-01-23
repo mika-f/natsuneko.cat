@@ -12,7 +12,7 @@ const Index: React.VFC<{}> = () => {
         <title>natsuneko.cat</title>
       </Head>
       <Background />
-      <div className="flex flex-col h-full">
+      <div className="relative flex flex-col h-full">
         <div className="flex flex-grow items-center justify-center">
           <Content />
         </div>
