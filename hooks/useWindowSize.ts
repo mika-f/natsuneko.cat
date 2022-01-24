@@ -15,7 +15,7 @@ const useWindowSize = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      const res = window.devicePixelRatio * 2;
+      const res = window.devicePixelRatio;
 
       setWindowSize({
         width: window.innerWidth,
