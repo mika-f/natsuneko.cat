@@ -25,6 +25,7 @@ const useWindowSize = () => {
       });
     };
 
+    window.addEventListener("load", handleResize);
     window.addEventListener("resize", handleResize);
 
     handleResize();
