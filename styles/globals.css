@@ -9,10 +9,6 @@
   src: url("https://assets.natsuneko.cat/HonyaJi-Re-S.woff2") format("woff2");
 }
 
-html {
-  height: -webkit-fill-available;
-}
-
 html,
 body {
   padding: 0;
@@ -22,7 +18,7 @@ body {
   color: #707070;
   height: 100%;
   min-height: 100vh;
-  min-height: -webkit-fill-available;
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 body footer {
