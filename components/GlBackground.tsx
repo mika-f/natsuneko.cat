@@ -162,7 +162,7 @@ const GlBackground: React.VFC<{}> = () => {
       <canvas
         height={window.resHeight}
         width={window.resWidth}
-        className="absolute h-screen w-screen"
+        className="absolute h-screen h-[100dvh] w-screen"
         ref={canvas}
       />
     </div>
