@@ -17,13 +17,14 @@ const Content: React.VFC<{}> = () => {
             icon="github"
           />
         </ExternalLink>
+        <ExternalLink href="https://twitter.com/6jz" className="mx-2">
+          <FontAwesome
+            className="text-4xl md:text-6xl"
+            fa="brands"
+            icon="twitter-square"
+          />
+        </ExternalLink>
         <span className="-mt-3 align-top font-px">
-          <ExternalLink href="https://twitter.com/6jz" className="mx-2">
-            <Stack x="lg">
-              <FontAwesome fa="solid" icon="circle" />
-              <FontAwesome className="fa-inverse" fa="brands" icon="twitter" />
-            </Stack>
-          </ExternalLink>
           <ExternalLink
             href="https://patreon.com/natsuneko_vrc"
             className="mx-4"
@@ -33,13 +34,14 @@ const Content: React.VFC<{}> = () => {
               <FontAwesome className="fa-inverse" fa="brands" icon="patreon" />
             </Stack>
           </ExternalLink>
-          <ExternalLink href="https://blog.mochizuki.moe" className="mx-3">
-            <Stack x="lg">
-              <FontAwesome fa="solid" icon="circle" />
-              <FontAwesome className="fa-inverse" fa="solid" icon="blog" />
-            </Stack>
-          </ExternalLink>
         </span>
+        <ExternalLink href="https://natsuneko.blog/" className="mx-3">
+          <FontAwesome
+            className="text-4xl md:text-6xl"
+            fa="solid"
+            icon="square-rss"
+          />
+        </ExternalLink>
       </div>
     </div>
   );
