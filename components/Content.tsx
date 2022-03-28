@@ -24,17 +24,6 @@ const Content: React.VFC<{}> = () => {
             icon="twitter-square"
           />
         </ExternalLink>
-        <span className="-mt-3 align-top font-px">
-          <ExternalLink
-            href="https://patreon.com/natsuneko_vrc"
-            className="mx-4"
-          >
-            <Stack x="lg">
-              <FontAwesome fa="solid" icon="circle" />
-              <FontAwesome className="fa-inverse" fa="brands" icon="patreon" />
-            </Stack>
-          </ExternalLink>
-        </span>
         <ExternalLink href="https://natsuneko.blog/" className="mx-3">
           <FontAwesome
             className="text-4xl md:text-6xl"
