@@ -1,13 +1,14 @@
 import React from "react";
 import ExternalLink from "./ExternalLink";
 import FontAwesome from "./FontAwesome/Icon";
-import Stack from "./FontAwesome/Stack";
 
 const Content: React.VFC<{}> = () => {
   return (
     <div className="text-center">
       <h1 className="text-4xl md:text-6xl">natsuneko.cat</h1>
-      <p className="text-xl md:text-3xl my-4">Web Engineer @ Tokyo</p>
+      <p className="text-xl md:text-3xl my-4">
+        Web / Blockchain Engineer @ Tokyo
+      </p>
       <p className="text-xl md:text-3xl my-4">Es un gat!</p>
       <div className="my-16">
         <ExternalLink href="https://github.com/mika-f" className="mx-4">
