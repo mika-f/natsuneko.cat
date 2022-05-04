@@ -1,30 +1,17 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Head from "next/head";
+import InternalLink from "next/link";
 
-import Background from "../components/Background";
-import Content from "../components/Content";
-import Footer from "../components/Footer";
-import useWindowSize from "../hooks/useWindowSize";
 import ExternalLink from "../components/ExternalLink";
 
 const Index: React.VFC<{}> = () => {
-  const window = useWindowSize();
-
-  useEffect(() => {
-    document.documentElement.style.setProperty(
-      "--vh",
-      `${window.height / 100}px`
-    );
-  }, [window]);
-
   return (
     <>
       <Head>
         <title>natsuneko.cat</title>
       </Head>
-      <Background />
       <div className="relative flex flex-col h-full">
-        <div className="text-center mt-4 text-xl">
+        <div className="mt-4 text-xl text-center">
           <ExternalLink
             className="underline"
             href="https://twitter.com/hashtag/stoprussianaggression"
@@ -32,10 +19,26 @@ const Index: React.VFC<{}> = () => {
             #StopRussianAggression 💙💛
           </ExternalLink>
         </div>
-        <div className="flex flex-grow items-center justify-center">
-          <Content />
+        <div className="flex items-center justify-center flex-grow">
+          <div className="text-center">
+            <h1 className="text-4xl md:text-6xl">natsuneko.cat</h1>
+            <p className="my-4 text-xl md:text-3xl">
+              Web / Blockchain Engineer @ Tokyo
+            </p>
+            <p className="my-4 text-xl md:text-3xl">Es un gat!</p>
+            <div className="flex items-center justify-center my-16 text-xl md:text-3xl">
+              <InternalLink href="/about">
+                <p className="mx-4 underline cursor-pointer">About</p>
+              </InternalLink>
+              <InternalLink href="/works">
+                <p className="mx-4 underline cursor-pointer">Works</p>
+              </InternalLink>
+              <InternalLink href="/links">
+                <p className="mx-4 underline cursor-pointer">Links</p>
+              </InternalLink>
+            </div>
+          </div>
         </div>
-        <Footer />
       </div>
     </>
   );
