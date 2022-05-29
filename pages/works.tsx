@@ -19,6 +19,10 @@ const ITEMS_2022: Item[] = [
     text: "(Personal) Git LFS Proxy",
     href: "https://github.com/natsuneko-laboratory/git-lfs-proxy",
   },
+  {
+    text: "(Personal) Embedfy",
+    href: "https://embedfy.natsuneko.moe",
+  },
 ];
 
 const ITEMS_2021: Item[] = [
