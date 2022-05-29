@@ -20,6 +20,14 @@ const ITEMS_2022: Item[] = [
     href: "https://github.com/natsuneko-laboratory/git-lfs-proxy",
   },
   {
+    text: "(Personal) Material Split View",
+    href: "https://github.com/natsuneko-laboratory/material-split-view",
+  },
+  {
+    text: "(Personal) SharpX",
+    href: "https://github.com/natsuneko-laboratory/SharpX",
+  },
+  {
     text: "(Personal) Embedfy",
     href: "https://embedfy.natsuneko.moe",
   },
