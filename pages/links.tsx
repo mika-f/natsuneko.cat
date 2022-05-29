@@ -29,7 +29,7 @@ const Links: React.VFC<{}> = () => {
                   </ExternalLink>
                 </li>
                 <li>
-                  <ExternalLink href="https//natsuneko.blog">
+                  <ExternalLink href="https://natsuneko.blog">
                     <FontAwesome fa="solid" icon="square-rss" />
                   </ExternalLink>
                 </li>
