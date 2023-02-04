@@ -22,9 +22,7 @@ const Index: React.VFC<{}> = () => {
         <div className="flex items-center justify-center flex-grow">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl">natsuneko.cat</h1>
-            <p className="my-4 text-xl md:text-3xl">
-              Web / Blockchain Engineer @ Tokyo
-            </p>
+            <p className="my-4 text-xl md:text-3xl">Web Engineer @ Tokyo</p>
             <p className="my-4 text-xl md:text-3xl">Es un gat!</p>
             <div className="flex items-center justify-center my-16 text-xl md:text-3xl">
               <InternalLink href="/about">
