@@ -30,7 +30,7 @@ const About: React.VFC<{}> = () => {
 
             <div className="mt-4 mb-6 text-xl md:text-2xl">
               <p>
-                I&apos;m Natsuneko. Web / Blockchain Engineer in Tokyo, Japan.
+                I&apos;m Natsuneko. Web Server-Side Engineer in Tokyo, Japan.
               </p>
               <p>
                 I&apos;m currently learn Rust, Shader Programming, and 3D
